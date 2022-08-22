@@ -10,7 +10,7 @@ try:
 except:
     status_unidecode = "unidecode package is NOT installed!\nPlease install this package before use dnacryptkey"
 
-class dnacrypt:
+class dnacryptkey:
 
   # Constantes
   start = "AUG"
