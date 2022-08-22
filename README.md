@@ -1,6 +1,6 @@
-# DNACRYPT-KEY
+# DNACRYPTKEY
 
-DNACRYPTO-KEY is a package to use in python that uses DNA code-based encryption to hide messages.
+DNACRYPTOKEY is a package to use in python that uses DNA code-based encryption to hide messages.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Just use pip to install it!
 
 ### Prerequisites
 
-To use dnacrypt-key is necessary have installed random package and unidecode package.
+To use dnacryptkey is necessary have installed random package and unidecode package.
 
 ```
 pip install random
@@ -27,40 +27,40 @@ pip freeze
 
 *If necessery install packages random and unidecode!
 
-And install DNA CRYPT using this command in terminal:
+And install DNACRYPTKEY using this command in terminal:
 
 ```
-pip install dnacrypt-key
+pip install dnacryptkey
 ```
 
-If you want, install dnacrypt-key and use command status() to verify status of package.
+If you want, install dnacryptkey and use command status() to verify status of package.
 
 ## Running the test
 
 
-dnacrypt uses third-party packages to run.
+dnacryptkey uses third-party packages to run.
 
 
-### Test status dnacrypt-key
+### Test status dnacryptkey
 
 ```
-import dnacrypt-key
-print(dnacrypt-key.dnacrypt-key.required)
-print(dnacrypt-key.dnacrypt-key.status())
+import dnacryptkey
+print(dnacryptkey.dnacryptkey.required)
+print(dnacryptkey.dnacryptkey.status())
 ```
 
 ### See how to use it
 
 ```
-import dnacrypt-key 
-print(dnacrypt-key.dnacrypt-key.use)
+import dnacryptkey 
+print(dnacryptkey.dnacryptkey.use)
 ```
 
 ### See description
 
 ```
-import dnacrypt-key
-print(dnacrypt-key.dnacrypt-key.description)
+import dnacryptkey
+print(dnacryptkey.dnacryptkey.description)
 ```
 
 
@@ -69,7 +69,7 @@ print(dnacrypt-key.dnacrypt-key.description)
 ## To encrypt the message use this command:
 
 ```
-dnacrypt-key.dnacrypt-key('encrypt','Esse script foi feito pensando melhorar minhas skills','chavesecreta')
+dnacryptkey.dnacryptkey('encrypt','Esse script foi feito pensando melhorar minhas skills','chavesecreta')
 ```
 
 ## Output
@@ -79,7 +79,7 @@ UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACA
 ## To decrypt the message use this command:
 
 ```
-dnacrypt-key.dnacrypt-key('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU','chavesecreta')
+dnacryptkey.dnacryptkey('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU','chavesecreta')
 ```
 
 ## Output
