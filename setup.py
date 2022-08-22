@@ -1,21 +1,21 @@
 from setuptools import setup
 
 setup(
-    name = 'dnacrypt-key',
+    name = 'dnacryptkey',
     version = '1.0.0',
     author = 'Rodrigo Forti',
     author_email = 'rodrigofort14@gmail.com',
-    packages = ['dnacrypt-key'],
+    packages = ['dnacryptkey'],
     description = "A good code for encryption based on the genetic code of DNA",
     long_description = 'A good code for encryption based on the genetic code of DNA '
                         + 'you can also use to decrypt too ',
-    url = 'https://github.com/FortiHub/dnacrypt-key',
+    url = 'https://github.com/FortiHub/dnacryptkey',
     project_urls = {
-        'Código fonte': 'https://github.com/FortiHub/dnacrypt-key',
-        'Download': 'https://github.com/FortiHub/dnacrypt-key/archive/refs/heads/main.zip'
+        'Código fonte': 'https://github.com/FortiHub/dnacryptkey',
+        'Download': 'https://github.com/FortiHub/dnacryptkey/archive/refs/heads/main.zip'
     },
     license = 'MIT',
-    keywords = 'Encrypt based DNA code with security key',
+    keywords = 'Encrypt and decrypt based DNA code with security key',
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
