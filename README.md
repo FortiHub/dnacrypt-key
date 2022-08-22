@@ -8,7 +8,7 @@ Just use pip to install it!
 
 ### Prerequisites
 
-To use dnacrypt is necessary have installed random package and unidecode package.
+To use dnacrypt-key is necessary have installed random package and unidecode package.
 
 ```
 pip install random
@@ -30,10 +30,10 @@ pip freeze
 And install DNA CRYPT using this command in terminal:
 
 ```
-pip install dnacrypt
+pip install dnacrypt-key
 ```
 
-If you want, install dnacrypt and use command status() to verify status of package.
+If you want, install dnacrypt-key and use command status() to verify status of package.
 
 ## Running the test
 
@@ -41,26 +41,26 @@ If you want, install dnacrypt and use command status() to verify status of packa
 dnacrypt uses third-party packages to run.
 
 
-### Test status dnacrypt
+### Test status dnacrypt-key
 
 ```
-import dnacrypt
-print(dnacrypt.dnacrypt.required)
-print(dnacrypt.dnacrypt.status())
+import dnacrypt-key
+print(dnacrypt-key.dnacrypt-key.required)
+print(dnacrypt-key.dnacrypt-key.status())
 ```
 
 ### See how to use it
 
 ```
-import dnacrypt 
-print(dnacrypt.dnacrypt.use)
+import dnacrypt-key 
+print(dnacrypt-key.dnacrypt-key.use)
 ```
 
 ### See description
 
 ```
-import dnacrypt
-print(dnacrypt.dnacrypt.description)
+import dnacrypt-key
+print(dnacrypt-key.dnacrypt-key.description)
 ```
 
 
@@ -69,7 +69,7 @@ print(dnacrypt.dnacrypt.description)
 ## To encrypt the message use this command:
 
 ```
-dnacrypt.dnacrypt('encrypt','Esse script foi feito pensando melhorar minhas skills','chavesecreta')
+dnacrypt-key.dnacrypt-key('encrypt','Esse script foi feito pensando melhorar minhas skills','chavesecreta')
 ```
 
 ## Output
@@ -79,7 +79,7 @@ UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACA
 ## To decrypt the message use this command:
 
 ```
-dnacrypt.dnacrypt('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU','chavesecreta')
+dnacrypt-key.dnacrypt-key('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU','chavesecreta')
 ```
 
 ## Output
@@ -94,13 +94,13 @@ Esse script foi feito pensando melhorar minhas skills.
 
 ## Authors
 
-* **Rodrigo Forti** - *Initial work* - [CataLux Python Labs](https://github.com/CataLux)
+* **Rodrigo Forti** - *Initial work* - [CataLux Python Labs](https://github.com/FortiHub)
 
 See also the list of [contributors](https://github.com/catalux/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
